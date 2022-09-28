@@ -70,8 +70,8 @@ I have created a simple page to display all contributors list [here](https://hct
 ---
 
 # :handshake: Our Contributors
-<a href="https://github.com/hctnm2/Open-Source-Enthusiast/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hctnm2/Open-Source-Enthusiast" />
+<a href="https://github.com/hctnm2/OpenSourceEnthusiast/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hctnm2/OpenSourceEnthusiast" />
 </a>
 
 # Recommended Repos 
