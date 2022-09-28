@@ -1,4 +1,4 @@
-![](https://github.com/hctnm2/OpenSourceEnthusiast/blob/main/Hfest-Logo-Manga@2x.png?raw=true)
+![](https://github.com/hctnm2/OpenSourceEnthusiast/blob/main/.assets/HFest2022.png)
 
 # Open-Source-Entusiasts
 
