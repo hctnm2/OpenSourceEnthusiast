@@ -77,6 +77,6 @@ I have created a simple page to display all contributors list [here](https://hct
 # Recommended Repos 
 - https://github.com/hctnm2/OpenSourceEnthusiast/
 - https://github.com/hctnm2/hacktoberfest-2022/
-- https://github.com/hctnm1/HacktoberFest-Python/
+- https://github.com/hctnm1/Hacky-Py/
 - https://github.com/hctnm1/Learn-To-Use-Github/
 
