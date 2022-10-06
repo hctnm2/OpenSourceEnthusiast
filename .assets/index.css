@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #303030;
+  height: 100vh;
+  padding: 5rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(25, 25, 25);
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin-top: 0rem;
+}
+h1 {
+  margin-bottom: 15rem;
+}
+
+h3 {
+  margin-bottom: 25rem;
+  font-size: 5rem;
+}
+.template {
+  display: none;
+}
+
+#author {
+  padding: 2%;
+  margin:4%;
+  min-height: 55vh;
+  max-height: 55vh;
+  box-shadow:0px 0px 15px #bd8cbf,1px 0px 5px grey;
+}
+#author:hover{
+  box-shadow:0px 0px 15px green,1px 0px 5px grey;
+  border-radius:20px;
+}
+#wrap {
+  min-height: 55vh;
+}
+body {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(25, 25, 25);
+}
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 5rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(20) 1s 1 normal both,
+    blinkTextCursor 800ms steps(20) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 8.5em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
