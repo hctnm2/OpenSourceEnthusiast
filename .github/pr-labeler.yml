@@ -1,0 +1,2 @@
+alwaysReplace: true
+default: ['hacktoberfest-accepted','good first issue']
