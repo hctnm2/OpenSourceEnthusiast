@@ -1,2 +1,11 @@
 alwaysReplace: true
+caseSensitive: true
 default: ['hacktoberfest-accepted','good first issue']
+customLabels:
+  - text: 'Create'
+    label: 'hacktoberfest-accepted'
+  - text: 'Create '
+    label: 'good first issue'
+searchBody: true
+searchTitle: true
+wholeWords: false
