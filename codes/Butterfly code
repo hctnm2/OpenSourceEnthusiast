@@ -1,0 +1,30 @@
+class butterfly: 
+  def __init_(self, color1='pink', patterns='dotted', origin1='Mid- Cretaceous', liv_pupal='3 weeks', liv_butterfly1='3 years'):
+    self.color1 = color1 
+    self.patterni - pattern1
+    self.origini = origin1 
+    self.liv_pupal = liv_pupal 
+    self.liv_butterfly1 = liv_butterfly1
+    
+  def color(self):
+    print('This butterfly color is {}'.format(self.colori))
+  def pattern(self):
+    print('This butterfly pattern is {}'.format(self.pattern1))
+  def origin(self):
+    print('This butterfly origin is {}' .format(self.origini)) 
+  def living_pupa(self):
+    print('This butterfly living_pupa is {}'.format(self.liv_pupal))
+  def living_butterfly(self):
+    print('This butterfly living_butterfly is {}'.format(self.liv_butterfly1))
+  
+  def final(fly):
+    fly.color() 
+    fly.pattern() 
+    fly.origin 
+    fly.living_pupa()
+    fly.living_butterfly()
+
+
+ob1 = butterfly()
+
+final(ob1)
