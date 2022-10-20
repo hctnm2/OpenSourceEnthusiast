@@ -1,0 +1,2 @@
+npyscreen==4.10.5
+selenium==4.5.0
