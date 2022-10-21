@@ -1,5 +1,6 @@
 // C++ program to print left view of Binary Tree
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 struct Node
