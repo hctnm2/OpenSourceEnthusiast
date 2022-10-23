@@ -1,0 +1,50 @@
+import abc
+
+class CGPA(abc.ABC):
+    @abc.abstractmethod
+    def getCGPA(self):
+        pass
+#Student_1    
+class Student_A(CGPA):
+    def __init__(self,mark1,mark2,mark3):
+        self.mark1=mark1
+        self.mark2=mark2
+        self.mark3=mark3
+    def getCGPA(self):
+        pass
+    def student1(self):
+        super().__init__()
+        x=self.mark1 + self.mark2 + self.mark3 
+        z=x//3
+        if z >= 85:
+            print("Student_A got 4 CGPA (GRADE A+)")
+        elif z >= 70:
+            print("Student_A got 3 CGPA (GRADE B+)")
+        elif z >= 55:
+            print("Student_A got 2 CGPA (GRADE C+)")
+            
+#Student_2
+class Student_B(CGPA):
+    def __init__(self,mark1,mark2,mark3,mark4):
+        self.mark1=mark1
+        self.mark2=mark2
+        self.mark3=mark3
+        self.mark4=mark4
+    def getCGPA(self):
+        pass
+    def student2(self):
+        super().__init__()
+        i=self.mark1 + self.mark2 + self.mark3 + self.mark4 
+        j=i//4
+        if j >= 85:
+            print("Student_B got 4 CGPA (GRADE A+)")
+        elif j >= 70:
+            print("Student_B got 3 CGPA (GRADE B+)")
+        elif j >= 55:
+            print("Student_B got 2 CGPA (GRADE C+)")
+
+#Objects
+ob1=Student_A(48,62,89)
+ob2=Student_B(56,98,87,42)
+ob1.student1()
+ob2.student2()
